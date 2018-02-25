@@ -18,5 +18,4 @@ const f = function (date, fmt = 'yyyy-MM-dd hh:mm:ss') {
     return fmt
 }
 
-// module.exports = f
 export default f
