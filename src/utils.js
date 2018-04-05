@@ -38,7 +38,8 @@ export function timeAgo(date) {
 	} else if (diff < (3600 * 24 * 365)) {
 		return Math.ceil(diff / (3600 * 24 * 30)) + '个月前'
 	} else {
-		return formatDate(date)
+		// return formatDate(date)
+		return Math.ceil(diff / (3600 * 24 * 365)) + '年前'
 	}
 }
 
