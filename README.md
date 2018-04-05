@@ -1,9 +1,11 @@
 # bowencool
-### install
-``` bash
-npm i bowencool
-```
-### usage
+> personal package.
+
+## usage
 ``` javascript
-import { dateFormater } from 'bowencool'
+import bowencool from 'bowencool'
+const { utils: { formatDate, timeAgo } } = bowencool
+
+const date = 123123123123
+console.log(formatDate(date), timeAgo(date))
 ```

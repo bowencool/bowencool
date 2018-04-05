@@ -1,0 +1,9 @@
+config/
+node_modules/
+src/
+.babelrc
+.editorconfig
+.gitignore
+.npmignore
+index.js
+package-lock.json
