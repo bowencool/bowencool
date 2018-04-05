@@ -6,15 +6,15 @@ module.exports = {
     output: {
         path: path.resolve(__dirname, "../lib"),
         filename: "[name].js",
+        libraryTarget: "umd",
     },
-    // target: 'node',
-    // module: {
-    //     rules: [
-    //         {
-    //             test: /\.js$/,
-    //             include: [path.resolve(__dirname, '../src')],
-    //             use: 'babel-loader'
-    //         },
-    //     ]
-    // }
+    module: {
+        rules: [
+            {
+                test: /\.js$/,
+                include: [path.resolve(__dirname, '../src')],
+                use: 'babel-loader'
+            },
+        ]
+    }
 }
