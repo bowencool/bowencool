@@ -1,8 +1,8 @@
 {
   "name": "bowencool",
-  "version": "2.0.0",
-  "description": "hello",
-  "main": "index.js",
+  "version": "2.1.1",
+  "description": "personal package",
+  "main": "lib/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack --progress --config config/webpack.config.js"
