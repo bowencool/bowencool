@@ -7,9 +7,9 @@ module.exports = {
 	output: {
 		path: path.resolve(__dirname, "../lib"),
 		filename: "[name].js",
-		library: 'bowencool',
-		libraryExport: 'default',
-		libraryTarget: 'umd',
+		library: "bowencool",
+		libraryExport: "default",
+		libraryTarget: "umd",
 	},
 	module: {
 		rules: [
