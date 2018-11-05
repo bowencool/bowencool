@@ -1,5 +1,5 @@
-import * as utils from './src/utils'
+import * as utils from "./src/utils";
 export default {
-	hello: 'hello',
+	hello: "hello",
 	utils,
-}
+};

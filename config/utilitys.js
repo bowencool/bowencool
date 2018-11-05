@@ -1,9 +1,9 @@
-const fs = require('fs')
-const path = require('path')
+const fs = require("fs");
+const path = require("path");
 
 const entry = {
-	'index': path.resolve(__dirname, '../index.js')
-}
+	index: path.resolve(__dirname, "../index.js"),
+};
 // const entryNames = fs.readdirSync(path.resolve(__dirname, '../src'))
 // 	.filter(file => /\.js$/.test(file))
 // 	.map(file => file.replace('.js', ''))
@@ -12,5 +12,5 @@ const entry = {
 // console.log(entryNames, entry);
 
 module.exports = {
-	entry
-}
+	entry,
+};
