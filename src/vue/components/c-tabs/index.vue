@@ -40,7 +40,7 @@
 </template>
 
 <script>
-import CTabPane from './CTabPane';
+import CTabPane from './c-tab-pane';
 
 export default {
   name: 'c-tabs',
