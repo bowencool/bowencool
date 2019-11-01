@@ -1,14 +1,19 @@
+/**
+ * @author Bowen Zhao <z.bowen66@gmail.com>
+ * Created at 2019-11-01 10:42:45
+ */
+
 export const selectFile = ({
 	accept = "image/*",
-	multiple,
+	multiple = false,
 }: { accept?: string; multiple?: boolean } = {}): Promise<FileList> =>
 	new Promise(resolve => {
-		const input = document.createElement("input");
+		const input: HTMLInputElement = document.createElement("input");
 		input.type = "file";
 		input.accept = accept;
 		if (multiple) input.multiple = multiple;
-		input.onchange = (e) => {
-			resolve(e.target.files);
+		input.onchange = (e: InputEvent) => {
+			resolve((e.target as HTMLInputElement).files);
 		};
 		input.click();
 	});
