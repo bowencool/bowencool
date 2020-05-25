@@ -84,7 +84,8 @@ export function throttleAsync(fn) {
 
 /**
  * @author bowencool<z.bowen66@gmail.com>
- * @description 异步去抖：短时间内触发多次，取最后一次触发的结果。使用详情https://jsfiddle.net/bowencool/umoxrezg/
+ * @description 异步去抖：短时间内触发多次，取最后一次触发的结果。如果说debounce是发送前取最后一次输入，那么debounceAsync就是发送后取最后一次输出。
+ * @example https://jsfiddle.net/bowencool/umoxrezg/
  * @param {() => Promise<any>} fn
  * @returns {() => Promise<any>} 去抖后的function
  */
