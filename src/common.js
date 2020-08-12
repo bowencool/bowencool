@@ -31,7 +31,7 @@ export const sleep = ms => new Promise(_ => setTimeout(_, ms));
 export const debounce = (fn, ms = 300) => {
   let timer;
   return function debounced(...args) {
-    clearInterval(timer);
+    clearTimeout(timer);
     timer = setTimeout(() => {
       fn.call(this, ...args);
     }, ms);
