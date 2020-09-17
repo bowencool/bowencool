@@ -1,17 +1,17 @@
 /**
  * @description 选择文件
  * @param {object} [option] 自定义条件，可选
- * @param {string} [option.accept] 标准accept，可选，常见的有'image/*'、'.xls,.xlsx'
+ * @param {string} [option.accept] 标准accept，可选，常见的有'image/*'、'.xls,.xlsx,.csv,.numbers'
  * @param {boolean} [option.multiple] 是否多选，可选
  * @returns {Promise<FileList>}
  */
 export const selectFile = ({ accept = 'image/*', multiple = false } = {}) =>
-  new Promise((resolve) => {
+  new Promise(resolve => {
     const input = document.createElement('input');
     input.type = 'file';
     input.accept = accept;
     if (multiple) input.multiple = multiple;
-    input.onchange = (e) => {
+    input.onchange = e => {
       const { files } = e.target;
       input.remove();
       resolve(files);
@@ -59,7 +59,7 @@ export async function downloadByUrl(url, filename) {
  * @param {Blob} blob Blob对象
  * @param {string} [filename] 要保存的文件名
  */
-export async function downloadBlob(blob, filename = blob.filename) {
+export async function downloadBlob(blob, filename = blob.name) {
   const blobUrl = window.URL.createObjectURL(blob);
   await downloadByUrl(blobUrl, filename);
   window.URL.revokeObjectURL(blobUrl);
@@ -70,7 +70,7 @@ export async function downloadBlob(blob, filename = blob.filename) {
  * @param {Blob} file
  * @returns {Promise<{width:number,height:number}>}
  */
-export const getImgRect = (file) =>
+export const getImgRect = file =>
   new Promise((resolve, reject) => {
     const imgDom = document.createElement('img');
     const src = window.URL.createObjectURL(file);
