@@ -1,7 +1,7 @@
 /**
  * @description 选择文件
  * @param {object} [option] 自定义条件，可选
- * @param {string} [option.accept] 标准accept，可选
+ * @param {string} [option.accept] 标准accept，可选，常见的有'image/*'、'.xls,.xlsx'
  * @param {boolean} [option.multiple] 是否多选，可选
  * @returns {Promise<FileList>}
  */
