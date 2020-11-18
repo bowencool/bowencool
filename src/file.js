@@ -6,12 +6,12 @@
  * @returns {Promise<FileList>}
  */
 export const selectFile = ({ accept = 'image/*', multiple = false } = {}) =>
-  new Promise(resolve => {
+  new Promise((resolve) => {
     const input = document.createElement('input');
     input.type = 'file';
     input.accept = accept;
     if (multiple) input.multiple = multiple;
-    input.onchange = e => {
+    input.onchange = (e) => {
       const { files } = e.target;
       input.remove();
       resolve(files);
@@ -44,8 +44,13 @@ export async function downloadByUrl(url, filename) {
   // 跨域不能重命名
   if (filename && url.indexOf(window.location.origin) === -1) {
     console.log('跨域下载 && 重命名');
-    downloadBlob(await getBlobByUrl(url), filename);
-    return;
+    try {
+      downloadBlob(await getBlobByUrl(url), filename);
+      return;
+    } catch (error) {
+      console.error(error);
+      console.log('降级为浏览器原生下载（不能重命名）');
+    }
   }
   a.href = url;
   if (filename) a.download = filename;
@@ -70,7 +75,7 @@ export async function downloadBlob(blob, filename = blob.name) {
  * @param {Blob} file
  * @returns {Promise<{width:number,height:number}>}
  */
-export const getImgRect = file =>
+export const getImgRect = (file) =>
   new Promise((resolve, reject) => {
     const imgDom = document.createElement('img');
     const src = window.URL.createObjectURL(file);
