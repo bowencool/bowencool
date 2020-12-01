@@ -20,7 +20,7 @@ export const toThousand = value => `${value}`.replace(/\B(?=(\d{3})+(?!\d))/g, '
  * @returns {string}
  */
 export const currencyCore = (num, { decimal, flag = true } = {}) => {
-  let n = parseInt(num)
+  let n = parseInt(num, 10)
   if (!Number.isFinite(n)) n = 0
   n = NP.divide(n, 100)
   if (typeof decimal === 'number') n = n.toFixed(2)
