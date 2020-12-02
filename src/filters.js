@@ -11,7 +11,7 @@ import NP from 'number-precision'
  * @param {string|number} value
  * @returns {string}
  */
-export const toThousand = value => `${value}`.replace(/\B(?=(\d{3})+(?!\d))/g, ',')
+export const toThousand = (value = '-') => `${value}`.replace(/\B(?=(\d{3})+(?!\d))/g, ',')
 
 /**
  * @description 显示为人民币，千分位、两位小数（自动舍入）、单位
