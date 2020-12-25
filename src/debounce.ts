@@ -25,7 +25,7 @@ export function debounce<T, P extends any[], R>(
  * ```
  */
 export function Debounce(ms: number = 300) {
-  return function (
+  return function(
     prototype: {
       [key: string]: any /* TODO, [propertyKey:string]: Function */;
     },
@@ -35,30 +35,22 @@ export function Debounce(ms: number = 300) {
     prototype[propertyKey] = debounce(originFn, ms);
   };
 }
-// /**
-//  * @author bowencool<z.bowen66@gmail.com>
-//  * @description 异步去抖：短时间内触发多次，取最后一次触发的结果。如果说debounce是发送前取最后一次输入，那么debounceAsync就是发送后取最后一次请求对应的输出。
-//  * @example https://jsfiddle.net/bowencool/umoxrezg/
-//  * @param {() => Promise<any>} fn
-//  * @returns {() => Promise<any>} 去抖后的function
-//  */
-// export function debounceAsync(fn) {
-//   let lastFetchId = 0;
+/**
+ * @author bowencool<z.bowen66@gmail.com>
+ * @description 异步去抖：短时间内触发多次，取最后一次触发的结果。如果说debounce是发送前取最后一次输入，那么debounceAsync就是发送后取最后一次请求对应的输出。
+ * @example https://jsfiddle.net/bowencool/umoxrezg/
+ */
+export function debounceAsync<T, P extends any[], R>(fn: (this: T, ...p: P) => Promise<R>) {
+  let lastFetchId = 0;
 
-//   return function (...args) {
-//     const fetchId = ++lastFetchId;
+  return function asyncDebounced(this: T, ...args: P): Promise<R> {
+    const fetchId = ++lastFetchId;
 
-//     return fn
-//       .call(this, ...args)
-//       .then((...a1) => {
-//         if (fetchId !== lastFetchId) {
-//           return new Promise(() => {});
-//         } else {
-//           return Promise.resolve(...a1);
-//         }
-//       })
-//       .catch((...a2) => {
-//         return Promise.reject(...a2);
-//       });
-//   };
-// }
+    return fn.call(this, ...args).then((...a1) => {
+      if (fetchId !== lastFetchId) {
+        return new Promise(() => {});
+      }
+      return Promise.resolve(...a1);
+    });
+  };
+}
