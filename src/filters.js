@@ -23,7 +23,7 @@ export const currencyCore = (num, { decimal, flag = true } = {}) => {
   let n = parseInt(num, 10)
   if (!Number.isFinite(n)) n = 0
   n = NP.divide(n, 100)
-  if (typeof decimal === 'number') n = n.toFixed(2)
+  if (typeof decimal === 'number') n = n.toFixed(decimal)
   const str = toThousand(n)
   return flag ? `￥${str}` : str
 }
@@ -42,18 +42,12 @@ export const timeCore = (t, fmt = 'YYYY-MM-DD HH:mm:ss') => {
   return moment(t).format(fmt)
 }
 
-/**
- * 隐私保护
- * @param {string, start, end} 字符串，头部留几位，尾部留几位
- * @return {string} 加密后的字符串
- */
-export const privacy = (str, start = 3, end = 4) => {
-  return str
-    ? `${str.substr(0, start || 3)}****${
-        str.length > (start || 3) + 4 ? str.substr(str.length - (end || 4)) : ''
-      }`
-    : ''
+export function howLong(s = 0) {
+  if (s < 60) return `${s}秒`;
+  return `${Math.floor(s / 60)}分钟${s % 60}秒`;
 }
+
+export const rateFormatter = (v) => `${toThousand((parseFloat(v, 10) || 0).toFixed(2))}%`;
 
 /**
  * @description 仅接收一个参数的版本，可直接用于table.column.render
