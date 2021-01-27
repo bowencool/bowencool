@@ -1,26 +1,30 @@
 // 格式化时间
-export function formatDate(date, fmt = "yyyy-MM-dd hh:mm:ss") {
-	if (!date) return "";
-	if (typeof date !== "object") {
-		date = new Date(date);
-	}
-	if (/(y+)/.test(fmt)) {
-		const _$1 = RegExp.$1;
-		const year = (date.getFullYear() + "").substr(4 - _$1.length, _$1.length);
-		fmt = fmt.replace(_$1, year);
-	}
-	const o = {
-		M: date.getMonth() + 1,
-		d: date.getDate(),
-		h: date.getHours(),
-		m: date.getMinutes(),
-		s: date.getSeconds(),
-	};
-	fmt = fmt.replace(/(M|d|h|m|s)+/g, (rez, key) =>
-		(o[key] + "").padStart(rez.length, "0")
-	);
-	return fmt;
-}
+export function formatDate(
+  date,
+  fmt = "YYYY-MM-DD HH:mm:ss"
+) {
+  if (!date) return "";
+  if (typeof date !== "object") {
+    date = new Date(date);
+  }
+  if (/(Y+)/.test(fmt)) {
+    const _$1 = RegExp.$1;
+    const year = (date.getFullYear() + "").substr(4 - _$1.length, _$1.length);
+    fmt = fmt.replace(_$1, year);
+  }
+  const o = {
+    M: date.getMonth() + 1,
+    D: date.getDate(),
+    H: date.getHours(),
+    m: date.getMinutes(),
+    s: date.getSeconds(),
+  };
+  fmt = fmt.replace(/(M|D|H|m|s)+/g, (rez, key) =>
+    (o[key] + "").padStart(rez.length, "0")
+  );
+  return fmt;
+};
+
 
 export function timeAgo(date) {
 	if (!date) return "";
