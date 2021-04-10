@@ -12,6 +12,8 @@ export const selectFile = ({
     input.type = 'file';
     input.accept = accept;
     if (multiple) input.multiple = multiple;
+    input.style.position = 'fixed';
+    input.style.left = '-100%';
     input.onchange = (e: InputEvent) => {
       resolve((e.target as HTMLInputElement).files);
     };
