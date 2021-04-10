@@ -11,6 +11,8 @@ export const selectFile = ({ accept = 'image/*', multiple = false } = {}) =>
     input.type = 'file';
     input.accept = accept;
     if (multiple) input.multiple = multiple;
+    input.style.position = 'fixed';
+    input.style.left = '-100%';
     input.onchange = (e) => {
       const { files } = e.target;
       input.remove();
