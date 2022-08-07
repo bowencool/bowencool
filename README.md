@@ -8,14 +8,13 @@
 - 🔭 I'm working in Hangzhou now 
 - 🦄 I'm good at React、Vue、Nodejs、Webpack、Vite
 - 🌱 I’m currently learning Unraid、 Alfred
+- 📫 How to reach me: <root@bowen.cool>、<z.bowen66@gmail.com>
+- 🔗 Here is my blog: <https://github.com/bowencool/blog/issues>
+
+<!-- - 😄 Pronouns: ... -->
 <!-- - 👯 I’m looking to collaborate on ... -->
 <!-- - 🤔 I’m looking for help with ... -->
 <!-- - 💬 Ask me about ... -->
-- 📫 How to reach me: <root@bowen.cool>、<z.bowen66@gmail.com>
-<!-- - 😄 Pronouns: ... -->
-- 🔗 Here is my blog: <https://github.com/bowencool/blog/issues>
-
-
 <!--
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=anuraghazra&repo=github-readme-stats)](https://github.com/anuraghazra/github-readme-stats)
 -->
