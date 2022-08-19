@@ -7,7 +7,7 @@
 
 - 🔭 I'm working in Hangzhou now 
 - 🦄 I'm good at React、Vue、Nodejs、Webpack、Vite
-- 🌱 I’m currently learning Remix、English
+- 🌱 I’m currently learning English
 - 📫 How to reach me: <root@bowen.cool>、<z.bowen66@gmail.com>
 - 🔗 Here is my blog: <https://github.com/bowencool/blog/issues>
 
