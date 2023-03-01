@@ -6,7 +6,8 @@
 ### Hi there 👋, it's Bowen
 
 <!-- - 🔭 I'm working in Hangzhou now -->
-- 🦄 I'm a Frontend Engineer, and I'm proficient in most things about JavaScript
+- 🦄 I'm a Full-Stack Engineer(Front-End heavily).
+- 💻 I'm proficient in most things about JavaScript
 - 🔭 I'm looking for a remote job now
 - 🌱 I’m currently learning English
 - 📫 How to reach me: <root@bowen.cool>、<biz@bowen.cool>、<z.bowen66@gmail.com>
