@@ -5,8 +5,9 @@
 
 ### Hi there 👋, it's Bowen
 
-- 🔭 I'm working in Hangzhou now
-- 🦄 I'm good at React、Vue、Nodejs、Webpack、Vite
+<!-- - 🔭 I'm working in Hangzhou now -->
+- 🦄 I'm a Frontend Engineer, and I'm proficient in most things about JavaScript
+- 🔭 I'm looking for a remote job now
 - 🌱 I’m currently learning English
 - 📫 How to reach me: <root@bowen.cool>、<biz@bowen.cool>、<z.bowen66@gmail.com>
 - 🔗 Here is my blog: <https://github.com/bowencool/blog/issues>
