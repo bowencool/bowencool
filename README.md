@@ -3,15 +3,15 @@
 <img align="right" src="https://github-readme-stats.vercel.app/api/top-langs/?username=bowencool">
 </div>
 
-### Hi there 👋, it's Bowen
+### Hi there 👋, I'm Bowen
 
 <!-- - 🔭 I'm working in Hangzhou now -->
-- 🦄 I'm a Full-Stack Engineer(Front-End heavily)
-- 💻 I'm proficient in most things about JavaScript
-- 🔭 I'm looking for a job now, remote preferred
-- 🌱 I’m currently learning English
-- 📫 How to reach me: <root@bowen.cool>、<biz@bowen.cool>、<z.bowen66@gmail.com>
-- 🔗 Here is my blog: <https://github.com/bowencool/blog/issues>
+- 🦄 I'm a Full-Stack Engineer with a strong focus on Front-End development.
+- 💻 I am highly proficient in JavaScript and its associated technologies.
+- 🔭 I'm currently seeking job opportunities, with a preference for remote work.
+- 🌱 I am currently working on improving my English language skills.
+- 📫 You can contact me through the following email addresses: <root@bowen.cool>、<biz@bowen.cool>、<z.bowen66@gmail.com>
+- 🔗 You can also check out my blog at: <https://github.com/bowencool/blog/issues>
 
 <!-- - 😄 Pronouns: ... -->
 <!-- - 👯 I’m looking to collaborate on ... -->
