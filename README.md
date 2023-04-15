@@ -9,7 +9,7 @@
 - 🦄 I'm a Full-Stack Engineer with a strong focus on Front-End development.
 - 💻 I am highly proficient in JavaScript and its associated technologies.
 - 🔭 I'm currently seeking job opportunities, with a preference for remote work.
-- 🌱 I am currently working on improving my English language skills.
+- 🌱 I am currently working to enhance my English proficiency while simultaneously developing my own business based on serverless.
 - 📫 You can contact me through the following email addresses: <root@bowen.cool>、<biz@bowen.cool>、<z.bowen66@gmail.com>
 - 🔗 You can also check out my blog at: <https://github.com/bowencool/blog/issues>
 
