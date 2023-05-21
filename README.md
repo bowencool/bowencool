@@ -11,13 +11,7 @@
 - 🌱 I am currently working to enhance my English proficiency.
 - 🔭 I am currently searching for job opportunities, with a preference for remote work. 
 - 🙅‍♂️ I will not consider any jobs that require 996 working hours.
-- 📫 You can contact me through the following email addresses: <root@bowen.cool> for technical communications and <biz@bowen.cool> for business or job-related matters.
+- 📫 You can contact me through the following email addresses: 
+  - <root@bowen.cool> for technical communications.
+  - <biz@bowen.cool> for business or job-related matters.
 - 🔗 You can also check out my blog at: <https://github.com/bowencool/blog/issues>
-
-<!-- - 😄 Pronouns: ... -->
-<!-- - 👯 I’m looking to collaborate on ... -->
-<!-- - 🤔 I’m looking for help with ... -->
-<!-- - 💬 Ask me about ... -->
-<!--
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=anuraghazra&repo=github-readme-stats)](https://github.com/anuraghazra/github-readme-stats)
--->
