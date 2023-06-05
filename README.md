@@ -1,6 +1,6 @@
 <div>
 <img src="https://github-readme-stats.vercel.app/api?username=bowencool&show_icons=true&count_private=true">
-<img align="right" src="https://github-readme-stats.vercel.app/api/top-langs/?username=bowencool">
+<!-- <img align="right" src="https://github-readme-stats.vercel.app/api/top-langs/?username=bowencool"> -->
 </div>
 
 ### Hi there 👋, I'm Bowen
