@@ -1,16 +1,27 @@
 <div>
 <picture>
   <source
-    srcset="https://github-readme-stats.vercel.app/api?username=bowencool&show_icons=true&count_private=true&theme=dark"
+    srcset="https://github-readme-stats.vercel.app/api?username=bowencool&show_icons=true&count_private=true&show=discussions_started&theme=github_dark"
     media="(prefers-color-scheme: dark)"
   />
   <source
-    srcset="https://github-readme-stats.vercel.app/api?username=bowencool&show_icons=true&count_private=true"
+    srcset="https://github-readme-stats.vercel.app/api?username=bowencool&show_icons=true&count_private=true&show=discussions_started"
     media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
   />
-  <img src="https://github-readme-stats.vercel.app/api?username=bowencool&show_icons=true" />
+  <img src="https://github-readme-stats.vercel.app/api?username=bowencool&show_icons=true&count_private=true&show=discussions_started" />
 </picture>
-<!-- <img align="right" src="https://github-readme-stats.vercel.app/api/top-langs/?username=bowencool"> -->
+  
+<picture>
+  <source
+    srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=bowencool&layout=compact&langs_count=10&theme=github_dark"
+    media="(prefers-color-scheme: dark)"
+  />
+  <source
+    srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=bowencool&layout=compact&langs_count=10"
+    media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
+  />
+  <img align="right" src="https://github-readme-stats.vercel.app/api/top-langs/?username=bowencool&layout=compact" />
+</picture>
 </div> 
 
 ### Hi there 👋, I'm Bowen
