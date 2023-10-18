@@ -28,7 +28,7 @@
 
 <!-- - 🔭 I'm working in Hangzhou now -->
 - 🦄 I am a Full-Stack Engineer with a strong focus on Front-End development.
-- 💻 I am highly proficient in JavaScript and its associated technologies.
+- 💻 My programing language: JavaScript/TypeScript、Go、Dart
 - 🔭 I am currently searching for job opportunities, with a preference for remote work. 
 - 🙅‍♂️ I will not consider any jobs that require the "996" work schedule.
 - 📫 You can contact me through the following email addresses: 
