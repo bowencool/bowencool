@@ -11,6 +11,7 @@
   <img src="https://github-readme-stats.vercel.app/api?username=bowencool&show_icons=true&count_private=true&show=discussions_started" />
 </picture>
   
+<!-- 
 <picture>
   <source
     srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=bowencool&layout=compact&langs_count=10&theme=github_dark"
@@ -22,6 +23,7 @@
   />
   <img align="right" src="https://github-readme-stats.vercel.app/api/top-langs/?username=bowencool&layout=compact" />
 </picture>
+-->
 </div> 
 
 ### Hi there 👋, I'm Bowen
