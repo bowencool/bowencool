@@ -36,5 +36,5 @@
 - 📫 You can contact me through the following email addresses: 
   - <root@bowen.cool> for technical communications.
   - <biz@bowen.cool> for business or job-related matters.
-- 🔗 You can also check out my blog at: <https://github.com/bowencool/blog/issues>
+- 🔗 You can also check out my blog at: <https://blog.bowen.cool>
 <!-- - 🌱 I am currently working to enhance my English proficiency. -->
