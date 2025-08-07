@@ -35,6 +35,7 @@
   - root@bowen.cool for technical communications.
   - biz@bowen.cool for business or job-related matters.
 - 🔗 You can also check out my blog at: <https://blog.bowen.cool>
+- ☕ Buy me a coffee on SOL: `bowencool.sol`
 <!-- 
 - 🌱 I am currently working to enhance my English proficiency. 
 - 😂 I am a person who has been laid off 3 times but still loves programming.
