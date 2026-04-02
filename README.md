@@ -1,14 +1,14 @@
 <div>
 <picture>
   <source
-    srcset="https://github-readme-stats.vercel.app/api?username=bowencool&show_icons=true&count_private=true&show=discussions_started&theme=github_dark"
+    srcset="https://github-readme-stats.shion.dev/api?username=bowencool&show_icons=true&count_private=true&show=discussions_started&theme=github_dark"
     media="(prefers-color-scheme: dark)"
   />
   <source
-    srcset="https://github-readme-stats.vercel.app/api?username=bowencool&show_icons=true&count_private=true&show=discussions_started"
+    srcset="https://github-readme-stats.shion.dev/api?username=bowencool&show_icons=true&count_private=true&show=discussions_started"
     media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
   />
-  <img src="https://github-readme-stats.vercel.app/api?username=bowencool&show_icons=true&count_private=true&show=discussions_started" />
+  <img src="https://github-readme-stats.shion.dev/api?username=bowencool&show_icons=true&count_private=true&show=discussions_started" />
 </picture>
   
 <!-- 
