@@ -10,6 +10,7 @@
   />
   <img src="https://github-readme-stats.shion.dev/api?username=bowencool&show_icons=true&count_private=true&show=discussions_started" />
 </picture>
+
   
 <!-- 
 <picture>
@@ -25,6 +26,8 @@
 </picture>
 -->
 </div> 
+
+[![GitHub Roast score badge](https://ghfind.com/api/badge/bowencool)](https://ghfind.com/u/bowencool?ref=badge)
 
 ### Hi there 👋, I'm Bowen
 
