@@ -32,13 +32,14 @@
 ### Hi there 👋, I'm Bowen
 
 - 🦄 I am a Full-Stack Engineer with a strong focus on Front-End development.
-- 💻 My programing language: JavaScript/TypeScript, Go, Python, and Dart.
 - 📫 You can contact me through the following email addresses:
   - root@bowen.cool for technical communications.
   - biz@bowen.cool for business or job-related matters.
 - 🔗 You can also check out my blog at: <https://blog.bowen.cool>
 
 <!--
+
+- 💻 My programing language: JavaScript/TypeScript, Go, Python, and Dart.
 - ☕ Buy me a coffee on Solana: `bowencool.sol`
 - 🔭 I am currently searching for job opportunities, preferring to work remotely or start a business. 
 - 🌱 I am currently working to enhance my English proficiency. 
