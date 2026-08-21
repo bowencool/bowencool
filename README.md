@@ -37,8 +37,9 @@
   - root@bowen.cool for technical communications.
   - biz@bowen.cool for business or job-related matters.
 - 🔗 You can also check out my blog at: <https://blog.bowen.cool>
+
+<!--
 - ☕ Buy me a coffee on Solana: `bowencool.sol`
-<!-- 
 - 🔭 I am currently searching for job opportunities, preferring to work remotely or start a business. 
 - 🌱 I am currently working to enhance my English proficiency. 
 - 🙅‍♂️ I would not consider any job that requires "996" unless the pay is very high.
