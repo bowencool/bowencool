@@ -1,4 +1,5 @@
-<div>
+<a href="https://ghfind.com/u/bowencool?ref=badge"><img src="https://ghfind.com/api/card/mini/bowencool" alt="GitHub Roast score card" width="440" /></a>
+
 <picture>
   <source
     srcset="https://github-readme-stats.shion.dev/api?username=bowencool&show_icons=true&count_private=true&show=discussions_started&theme=github_dark"
@@ -10,6 +11,9 @@
   />
   <img src="https://github-readme-stats.shion.dev/api?username=bowencool&show_icons=true&count_private=true&show=discussions_started" />
 </picture>
+
+
+
 
   
 <!-- 
@@ -25,9 +29,7 @@
   <img align="right" src="https://github-readme-stats.vercel.app/api/top-langs/?username=bowencool&layout=compact" />
 </picture>
 -->
-</div> 
 
-[![GitHub Roast score badge](https://ghfind.com/api/badge/bowencool)](https://ghfind.com/u/bowencool?ref=badge)
 
 ### Hi there 👋, I'm Bowen
 
